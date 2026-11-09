@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>หน้าแรก - การประยุกต์ใช้ AI</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #edf3ff;
+    text-align: center;
+    color: #26385c;
+}
+header {
+    width: 100%;
+    max-width: 1500px;
+    height: 280px;
+    margin: auto;
+    overflow: hidden;
+}
+.header-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+.menu {
+    background: #dce8ff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.menu a {
+    background: #244b9b;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.menu a:hover {
+    background: #8064d9;
+    transform: scale(1.1);
+}
+main {
+    background: white;
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 20px rgba(36,75,155,0.12);
+}
+h2 { color: #244b9b; }
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.content-img {
+    width: 90%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.card {
+    background: #f0efff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 15px rgba(36,75,155,0.2);
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.card h3 { color: #8064d9; }
+footer {
+    background: #142d5e;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+@media (max-width:600px) {
+    header { height: auto; }
+    .header-img {
+        height: auto;
+        aspect-ratio: 1500 / 280;
+    }
+    .menu { flex-direction: column; }
+    main { width: 94%; padding: 18px; }
+    .card { width: 100%; }
+}
+</style>
+</head>
+<body>
+
+<header>
+<img src="images/banner.jpg" alt="แบนเนอร์ AI" class="header-img">
+</header>
+
+<nav class="menu">
+<a href="index.html">หน้าแรก</a>
+<a href="index2.html">ความรู้เกี่ยวกับ AI</a>
+<a href="index3.html">การสร้างเว็บไซต์ด้วย AI</a>
+</nav>
+
+<main>
+<h2>💻 ยินดีต้อนรับสู่เว็บไซต์การประยุกต์ใช้ AI</h2>
+
+<img class="content-img"
+src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+alt="เทคโนโลยี AI">
+
+<p>
+เว็บไซต์นี้จัดทำขึ้นเพื่อศึกษาเกี่ยวกับการประยุกต์ใช้
+ปัญญาประดิษฐ์ หรือ AI ในชีวิตประจำวัน
+รวมถึงการนำ AI มาช่วยสร้างและออกแบบเว็บไซต์
+เพื่อเพิ่มความสะดวกและประหยัดเวลาในการทำงาน
+</p>
+
+<h2>✨ เนื้อหาภายในเว็บไซต์ ✨</h2>
+
+<div class="card-container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="AI">
+<h3>ความรู้เกี่ยวกับ AI</h3>
+<p>เรียนรู้ความหมายและความสำคัญของ AI</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" alt="เว็บไซต์">
+<h3>การสร้างเว็บไซต์</h3>
+<p>เรียนรู้การใช้ AI ช่วยสร้างเว็บไซต์</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="เทคโนโลยี">
+<h3>เทคโนโลยีสมัยใหม่</h3>
+<p>ศึกษาการนำ AI มาใช้ในชีวิตประจำวัน</p>
+</div>
+
+</div>
+</main>
+
+<footer>
+<p>🤖 การประยุกต์ใช้ AI สร้างเว็บไซต์</p>
+<p>จัดทำขึ้นเพื่อการศึกษาและเรียนรู้เทคโนโลยี AI</p>
+</footer>
+
+</body>
+</html>

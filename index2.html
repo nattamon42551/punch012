@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ความรู้เกี่ยวกับ AI</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #edf3ff;
+    text-align: center;
+    color: #26385c;
+}
+
+/* แบนเนอร์ขนาด 1500 x 280 */
+header {
+    width: 100%;
+    max-width: 1500px;
+    height: 280px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+/* เมนู */
+.menu {
+    background: #dce8ff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    background: #244b9b;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background: #8064d9;
+    transform: scale(1.1);
+}
+
+/* เนื้อหาหลัก */
+main {
+    background: white;
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 20px rgba(36,75,155,0.12);
+}
+
+h2 {
+    color: #244b9b;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* รูปภาพเนื้อหา */
+.content-img {
+    width: 90%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+/* การ์ด */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.card {
+    background: #f0efff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 15px rgba(36,75,155,0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card h3 {
+    color: #8064d9;
+}
+
+/* ส่วนท้าย */
+footer {
+    background: #142d5e;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* รองรับมือถือ */
+@media (max-width:600px) {
+    header {
+        height: auto;
+    }
+
+    .header-img {
+        height: auto;
+        aspect-ratio: 1500 / 280;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    main {
+        width: 94%;
+        padding: 18px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- แบนเนอร์ -->
+<header>
+    <img src="images/banner.jpg"
+    alt="แบนเนอร์ AI"
+    class="header-img">
+</header>
+
+<!-- เมนู 3 หน้า -->
+<nav class="menu">
+    <a href="index1.html">หน้าแรก</a>
+    <a href="index2.html">ความรู้เกี่ยวกับ AI</a>
+    <a href="index3.html">การสร้างเว็บไซต์ด้วย AI</a>
+</nav>
+
+<main>
+
+    <h2>🤖 ความรู้เกี่ยวกับ AI</h2>
+
+    <img class="content-img"
+    src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1000"
+    alt="ปัญญาประดิษฐ์">
+
+    <p>
+    AI ย่อมาจาก Artificial Intelligence หรือปัญญาประดิษฐ์
+    เป็นเทคโนโลยีที่ทำให้คอมพิวเตอร์สามารถเรียนรู้
+    วิเคราะห์ข้อมูล และช่วยทำงานต่าง ๆ ได้คล้ายกับมนุษย์
+    </p>
+
+    <h2>✨ ประเภทของ AI ✨</h2>
+
+    <div class="card-container">
+
+        <!-- การ์ดที่ 1 -->
+        <div class="card">
+            <img
+            src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600"
+            alt="AI หุ่นยนต์">
+
+            <h3>AI ด้านหุ่นยนต์</h3>
+            <p>ช่วยให้หุ่นยนต์สามารถทำงานตามคำสั่งและเรียนรู้ได้</p>
+        </div>
+
+        <!-- การ์ดที่ 2 -->
+        <div class="card">
+            <img
+            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600"
+            alt="AI คอมพิวเตอร์">
+
+            <h3>AI ด้านคอมพิวเตอร์</h3>
+            <p>ช่วยประมวลผลและวิเคราะห์ข้อมูลต่าง ๆ</p>
+        </div>
+
+        <!-- การ์ดที่ 3 แก้ไขรูปภาพแล้ว -->
+        <div class="card">
+            <img
+            src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600"
+            alt="AI สร้างภาพ">
+
+            <h3>AI สร้างสรรค์ผลงาน</h3>
+            <p>ช่วยสร้างข้อความ รูปภาพ และเนื้อหาต่าง ๆ</p>
+        </div>
+
+    </div>
+
+    <h2>🌟 ประโยชน์ของ AI</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h3>⏰ ประหยัดเวลา</h3>
+            <p>ช่วยทำงานได้รวดเร็วขึ้น</p>
+        </div>
+
+        <div class="card">
+            <h3>💡 ช่วยคิดไอเดีย</h3>
+            <p>ช่วยเสนอแนวทางและความคิดใหม่ ๆ</p>
+        </div>
+
+        <div class="card">
+            <h3>📚 ช่วยการเรียนรู้</h3>
+            <p>ช่วยค้นคว้าและอธิบายความรู้</p>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>🤖 การประยุกต์ใช้ AI สร้างเว็บไซต์</p>
+    <p>จัดทำขึ้นเพื่อการศึกษาและเรียนรู้เทคโนโลยี AI</p>
+</footer>
+
+</body>
+</html>
